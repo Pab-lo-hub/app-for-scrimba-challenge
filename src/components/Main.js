@@ -2,15 +2,13 @@ import React from "react"
 
 export default function Main() {
     return (
-        <main>
-            <h1 className="main--title">Fun facts about React</h1>
-            <ul className="main--facts">
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100K stars on GitHub</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
+        <main className="maincard">
+            <nav>
+                <img src="../images/profile-picture.jpg" className="profileimage" alt="Profile Image"/>
+                <h1 className="maincardtext">Pablo</h1>
+                <h3 id="titlepresentation" className="maincardtext">Developer</h3>
+                <h5 className="maincardtext">website.com</h5>
+            </nav>
         </main>
     )
 }
